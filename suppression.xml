@@ -8,8 +8,6 @@
         <packageUrl regex="true">^pkg:maven/org\.apache\.tomcat\.embed/tomcat\-embed\-websocket@.*$</packageUrl>
         <cve>CVE-2020-8022</cve>
     </suppress>
-
-
     <suppress>
         <notes>
             <![CDATA[ 识别错误：是 redis 本身的漏洞不是 jedis 的漏洞   ]]>
@@ -17,7 +15,6 @@
         <packageUrl regex="true">^pkg:maven/redis\.clients/jedis@.*$</packageUrl>
         <cve>CVE-2021-32626</cve>
     </suppress>
-
     <suppress>
         <notes>
             <![CDATA[ 识别错误：nas-store-spring-boot-starter 被认为是 springboot 了  ]]>
@@ -25,7 +22,6 @@
         <packageUrl regex="true">^pkg:maven/cn\.org\.bjca\.starter/nas\-store\-spring\-boot\-starter@.*$</packageUrl>
         <cpe>cpe:/a:pivotal_software:spring_boot</cpe>
     </suppress>
-
     <suppress>
         <notes>
             <![CDATA[ 识别错误：nas-store-spring-boot-starter 被认为是 spring 了  ]]>
@@ -33,7 +29,6 @@
         <packageUrl regex="true">^pkg:maven/cn\.org\.bjca\.starter/nas\-store\-spring\-boot\-starter@.*$</packageUrl>
         <cpe>cpe:/a:pivotal_software:spring_framework</cpe>
     </suppress>
-
     <suppress>
         <notes>
             <![CDATA[ 识别错误：cn.bjca.footstone.sword:json-api 被识别为 sword  ]]>
@@ -41,7 +36,6 @@
         <packageUrl regex="true">^pkg:maven/cn\.bjca\.footstone\.sword/json\-api@.*$</packageUrl>
         <cpe>cpe:/a:the_sword_project:sword</cpe>
     </suppress>
-
     <suppress>
         <notes>
             <![CDATA[ 识别错误：bjca-preserve-file-2.1.2-RELEASE.jar 被认为是 springboot    ]]>
@@ -55,6 +49,6 @@
         </notes>
         <packageUrl regex="true">^pkg:maven/cn\.org\.bjca/bjca\-preserve\-file@.*$</packageUrl>
         <cpe>cpe:/a:pivotal_software:spring_framework</cpe>
-     </suppress>
+    </suppress>
 
 </suppressions>

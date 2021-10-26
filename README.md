@@ -22,7 +22,7 @@ eg.
 > https://jeremylong.github.io/DependencyCheck/general/internals.html
 > 漏洞查询：http://www.cnnvd.org.cn/web/vulnerability/querylist.tag
 
-# history
+# suppression list
 1. jedis 被误认为是 redis 
 2. nas-store-spring-boot-starter 被误认为是 spring-boot
 3. nas-store-spring-boot-starter 被误认为是 spring-framework

@@ -28,3 +28,4 @@ eg.
 3. nas-store-spring-boot-starter 被误认为是 spring-framework
 4. cn.bjca.footstone.sword:json-api 被误认为 SWORD Project 
 5. CVE-2020-8022 是 SUSE openSUSE 安全漏洞，通过打 SUSE 补丁的方式升级 
+6. 

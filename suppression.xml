@@ -71,8 +71,24 @@
         <cpe>cpe:/a:mybatis:mybatis</cpe>
     </suppress>
     <suppress>
-        <notes><![CDATA[ 识别错误：mybatis-plus-core 被认为是 mybatis ]]></notes>
+        <notes>
+            <![CDATA[ 识别错误：mybatis-plus-core 被认为是 mybatis ]]>
+        </notes>
         <packageUrl regex="true">^pkg:maven/com\.baomidou/mybatis\-plus\-core@.*$</packageUrl>
         <cpe>cpe:/a:mybatis:mybatis</cpe>
-     </suppress>
+    </suppress>
+    <suppress>
+        <notes>
+            <![CDATA[ 识别错误：mybatis-plus  被认为是 mybatis ]]>
+        </notes>
+        <packageUrl regex="true">^pkg:maven/com\.baomidou/mybatis\-plus@.*$</packageUrl>
+        <cpe>cpe:/a:mybatis:mybatis</cpe>
+    </suppress>
+    <suppress>
+        <notes>
+            <![CDATA[ 识别错误：mybatis-plus-helper 被认为是 mybatis ]]>
+        </notes>
+        <packageUrl regex="true">^pkg:maven/cn\.bjca\.footstone\.sword/mybatis\-plus\-helper@.*$</packageUrl>
+        <cpe>cpe:/a:the_sword_project:sword</cpe>
+    </suppress>
 </suppressions>

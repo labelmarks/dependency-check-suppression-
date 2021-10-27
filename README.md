@@ -1,3 +1,5 @@
+因为权限问题，项目被 http://192.168.131.1/opensource/dependency-check-suppression 代替
+
 # dependency-check 是什么
 dependency-check 是一款根据项目依赖来检查漏洞的白盒审计工具。
 

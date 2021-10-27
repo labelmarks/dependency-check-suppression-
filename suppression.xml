@@ -126,6 +126,13 @@
         <packageUrl regex="true">^pkg:javascript/jquery@.*$</packageUrl>
         <cve>CVE-2019-11358</cve>
      </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: knife4j-spring-ui-2.0.9.jar: jquery.min.js
+        ]]></notes>
+        <packageUrl regex="true">^pkg:javascript/jquery@.*$</packageUrl>
+        <cve>CVE-2020-11022</cve>
+     </suppress>
      
      
 </suppressions>

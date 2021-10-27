@@ -24,7 +24,9 @@ eg.
 
 # suppression list
 1. jedis 被误认为是 redis 
-2. nas-store-spring-boot-starter 被误认为是 spring-boot
-3. nas-store-spring-boot-starter 被误认为是 spring-framework
-4. cn.bjca.footstone.sword:json-api 被误认为 SWORD Project 
-5. CVE-2020-8022 是 SUSE openSUSE 安全漏洞，通过打 SUSE 补丁的方式升级 
+1. nas-store-spring-boot-starter 被误认为是 spring-boot
+1. nas-store-spring-boot-starter 被误认为是 spring-framework
+1. cn.bjca.footstone.sword:json-api 被误认为 SWORD Project 
+1. cn.bjca.footstone.sword:json-api-impl-jackson-jdk8 被误认为 SWORD Project 
+1. mybatis-helper-core 被认为是 sword
+1. CVE-2020-8022 是 SUSE openSUSE 安全漏洞，通过打 SUSE 补丁的方式升级 

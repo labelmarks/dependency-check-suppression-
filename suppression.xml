@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suppressions xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.3.xsd">
-
     <suppress>
         <notes>
             <![CDATA[   识别错误：是 SUSE openSUSE 安全漏洞，而不应该被认为是 tomcat 的   ]]>
@@ -38,6 +37,20 @@
     </suppress>
     <suppress>
         <notes>
+            <![CDATA[ 识别错误：json-api-impl-jackson-jdk8 被识别为 sword  ]]>
+        </notes>
+        <packageUrl regex="true">^pkg:maven/cn\.bjca\.footstone\.sword/json\-api\-impl\-jackson\-jdk8@.*$</packageUrl>
+        <cpe>cpe:/a:the_sword_project:sword</cpe>
+    </suppress>
+    <suppress>
+        <notes>
+            <![CDATA[ 识别错误：mybatis-helper-core 被认为是 sword]]>
+        </notes>
+        <packageUrl regex="true">^pkg:maven/cn\.bjca\.footstone\.sword/mybatis\-helper\-core@.*$</packageUrl>
+        <cpe>cpe:/a:the_sword_project:sword</cpe>
+    </suppress>
+    <suppress>
+        <notes>
             <![CDATA[ 识别错误：bjca-preserve-file-2.1.2-RELEASE.jar 被认为是 springboot    ]]>
         </notes>
         <packageUrl regex="true">^pkg:maven/cn\.org\.bjca/bjca\-preserve\-file@.*$</packageUrl>
@@ -50,5 +63,4 @@
         <packageUrl regex="true">^pkg:maven/cn\.org\.bjca/bjca\-preserve\-file@.*$</packageUrl>
         <cpe>cpe:/a:pivotal_software:spring_framework</cpe>
     </suppress>
-
 </suppressions>

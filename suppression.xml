@@ -122,17 +122,11 @@
         <cpe>cpe:/a:mybatis:mybatis</cpe>
      </suppress>
      <suppress>
-        <notes><![CDATA[ 主动忽略：jquery knife4j-spring-ui-2.0.9.jar: jquery.min.js ]]></notes>
+        <notes><![CDATA[ 主动忽略：jquery.min.js 的漏洞 ]]></notes>
         <packageUrl regex="true">^pkg:javascript/jquery@.*$</packageUrl>
         <cve>CVE-2019-11358</cve>
-     </suppress>
-     <suppress>
-        <notes><![CDATA[
-        file name: knife4j-spring-ui-2.0.9.jar: jquery.min.js
-        ]]></notes>
-        <packageUrl regex="true">^pkg:javascript/jquery@.*$</packageUrl>
         <cve>CVE-2020-11022</cve>
+        <cve>CVE-2020-11023</cve>
      </suppress>
-     
      
 </suppressions>

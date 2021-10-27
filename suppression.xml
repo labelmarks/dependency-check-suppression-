@@ -97,6 +97,11 @@
         <cpe>cpe:/a:mybatis:mybatis</cpe>
      </suppress>
      <suppress>
+        <notes><![CDATA[ 识别错误：mybatis-plus-boot-starter  被认为是 mybatis ]]></notes>
+        <packageUrl regex="true">^pkg:maven/com\.baomidou/mybatis\-plus\-boot\-starter@.*$</packageUrl>
+        <cpe>cpe:/a:mybatis:mybatis</cpe>
+     </suppress>
+     <suppress>
         <notes><![CDATA[ 识别错误：mybatis-plus-helper 被认为是 mybatis ]]></notes>
         <packageUrl regex="true">^pkg:maven/cn\.bjca\.footstone\.sword/mybatis\-plus\-helper@.*$</packageUrl>
         <cpe>cpe:/a:mybatis:mybatis</cpe>
@@ -121,5 +126,6 @@
         <packageUrl regex="true">^pkg:javascript/jquery@.*$</packageUrl>
         <cve>CVE-2019-11358</cve>
      </suppress>
+     
      
 </suppressions>

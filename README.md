@@ -12,10 +12,7 @@ dependency-check 是一款根据项目依赖来检查漏洞的白盒审计工具
 
 eg.
 ```shell
-~/dev/dependency-check/bin/dependency-check.sh
---suppression ~/dev/dependency-check/suppression/suppression.xml
--s ~/Documents/DBJCA/preserve-local-V2.0/bjca-preserve-receive/bjca-preserve-receive-server/target/bjca-preserve-receive-server-2.1.2-RELEASE.jar
--o ~/Downloads/2021-10-25/存证28.html
+~/dev/dependency-check/bin/dependency-check.sh --suppression http://192.168.131.1/opensource/dependency-check-suppression/raw/master/suppression.xml -s /bedrock-oss-server-1.0.0-SNAPSHOT.jar -o /2021-10-26/文件存储2.2.5版本20.html
 ```
 
 

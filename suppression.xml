@@ -101,4 +101,19 @@
         <packageUrl regex="true">^pkg:maven/cn\.bjca\.footstone\.sword/mybatis\-plus\-helper@.*$</packageUrl>
         <cpe>cpe:/a:mybatis:mybatis</cpe>
      </suppress>
+     <suppress>
+        <notes><![CDATA[ 识别错误：mybatis-plus-annotation 被认为是 mybatis ]]></notes>
+        <packageUrl regex="true">^pkg:maven/com\.baomidou/mybatis\-plus\-annotation@.*$</packageUrl>
+        <cpe>cpe:/a:mybatis:mybatis</cpe>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[ 识别错误：mybatis-helper-boot-starter 被认为是 mybatis ]]></notes>
+        <packageUrl regex="true">^pkg:maven/cn\.bjca\.footstone\.sword/mybatis\-helper\-boot\-starter@.*$</packageUrl>
+        <cpe>cpe:/a:the_sword_project:sword</cpe>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[ 主动忽略：jquery knife4j-spring-ui-2.0.9.jar: jquery.min.js ]]></notes>
+        <packageUrl regex="true">^pkg:javascript/jquery@.*$</packageUrl>
+        <cve>CVE-2019-11358</cve>
+     </suppress>
 </suppressions>

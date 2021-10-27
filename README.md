@@ -24,10 +24,7 @@ eg.
 
 # suppression list
 1. jedis 被误认为是 redis 
-1. nas-store-spring-boot-starter 被误认为是 spring-boot
-1. nas-store-spring-boot-starter 被误认为是 spring-framework
-1. demo245-api 被误认为是 spring-boot
-1. demo245-api 被误认为是 spring-framework
+1. 公司包(格式：cn.*.bjca.*:*.*)被认为是 spring、springboot
 1. cn.bjca.footstone.sword:json-api 被误认为 SWORD Project 
 1. cn.bjca.footstone.sword:json-api-impl-jackson-jdk8 被误认为 SWORD Project 
 1. mybatis-helper-core 被认为是 sword

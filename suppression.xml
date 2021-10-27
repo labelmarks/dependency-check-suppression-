@@ -16,20 +16,6 @@
     </suppress>
     <suppress>
         <notes>
-            <![CDATA[ 识别错误：nas-store-spring-boot-starter 被认为是 springboot 了  ]]>
-        </notes>
-        <packageUrl regex="true">^pkg:maven/cn\.org\.bjca\.starter/nas\-store\-spring\-boot\-starter@.*$</packageUrl>
-        <cpe>cpe:/a:pivotal_software:spring_boot</cpe>
-    </suppress>
-    <suppress>
-        <notes>
-            <![CDATA[ 识别错误：nas-store-spring-boot-starter 被认为是 spring 了  ]]>
-        </notes>
-        <packageUrl regex="true">^pkg:maven/cn\.org\.bjca\.starter/nas\-store\-spring\-boot\-starter@.*$</packageUrl>
-        <cpe>cpe:/a:pivotal_software:spring_framework</cpe>
-    </suppress>
-    <suppress>
-        <notes>
             <![CDATA[ 识别错误：cn.bjca.footstone.sword:json-api 被识别为 sword  ]]>
         </notes>
         <packageUrl regex="true">^pkg:maven/cn\.bjca\.footstone\.sword/json\-api@.*$</packageUrl>
@@ -133,5 +119,10 @@
         <packageUrl regex="true">^pkg:maven/org\.jdom/jdom2@.*$</packageUrl>
         <cpe>cpe:/a:jdom:jdom</cpe>
      </suppress>
-     
+     <suppress>
+        <notes><![CDATA[ 识别错误：公司包(格式：cn.*.bjca.*:*.*)被认为是 spring、springboot ]]></notes>
+        <gav regex="true">cn.*.bjca.*:*.*</gav>
+        <cpe>cpe:/a:pivotal_software:spring_boot</cpe>
+        <cpe>cpe:/a:pivotal_software:spring_framework</cpe>
+     </suppress>
 </suppressions>

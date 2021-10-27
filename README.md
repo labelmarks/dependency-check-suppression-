@@ -30,9 +30,13 @@ eg.
 1. cn.bjca.footstone.sword:json-api-impl-jackson-jdk8 被误认为 SWORD Project 
 1. mybatis-helper-core 被认为是 sword
 1. mybatis-helper-core 被认为是 mybatis
-1. mybatis-plus-core 被认为是 mybatis
+1. mybatis-helper-boot-starter 被认为是 sword
+1. mybatis-helper-boot-starter 被认为是 mybatis
 1. mybatis-plus 被认为是 mybatis
+1. mybatis-plus-core 被认为是 mybatis
 1. mybatis-plus-helper 被认为是 mybatis
 1. mybatis-plus-extension 被认为是 mybatis
+1. mybatis-plus-annotation 被认为是 mybatis
+1. mybatis-plus-boot-starter 被认为是 mybatis
 1. CVE-2020-8022 是 SUSE openSUSE 安全漏洞，通过打 SUSE 补丁的方式升级 
 1. 主动忽略 jquery 的错误

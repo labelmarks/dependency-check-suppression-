@@ -26,6 +26,8 @@ eg.
 1. jedis 被误认为是 redis 
 1. nas-store-spring-boot-starter 被误认为是 spring-boot
 1. nas-store-spring-boot-starter 被误认为是 spring-framework
+1. demo245-api 被误认为是 spring-boot
+1. demo245-api 被误认为是 spring-framework
 1. cn.bjca.footstone.sword:json-api 被误认为 SWORD Project 
 1. cn.bjca.footstone.sword:json-api-impl-jackson-jdk8 被误认为 SWORD Project 
 1. mybatis-helper-core 被认为是 sword
@@ -39,4 +41,7 @@ eg.
 1. mybatis-plus-annotation 被认为是 mybatis
 1. mybatis-plus-boot-starter 被认为是 mybatis
 1. CVE-2020-8022 是 SUSE openSUSE 安全漏洞，通过打 SUSE 补丁的方式升级 
+## 主动忽略
 1. 主动忽略 jquery 的错误
+## 临时忽略
+1. jdom2 2.0.6 有漏洞但是官方最新版本还没有解决，临时忽略到 2022-06-01Z

@@ -128,5 +128,10 @@
         <cve>CVE-2020-11022</cve>
         <cve>CVE-2020-11023</cve>
      </suppress>
+     <suppress until="2022-06-01Z">
+        <notes><![CDATA[ 临时忽略：有漏洞但是官方最新版本还没有解决，jdom2-2.0.6 已经是最新版本了， ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.jdom/jdom2@.*$</packageUrl>
+        <cpe>cpe:/a:jdom:jdom</cpe>
+     </suppress>
      
 </suppressions>

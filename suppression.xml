@@ -63,4 +63,16 @@
         <packageUrl regex="true">^pkg:maven/cn\.org\.bjca/bjca\-preserve\-file@.*$</packageUrl>
         <cpe>cpe:/a:pivotal_software:spring_framework</cpe>
     </suppress>
+    <suppress>
+        <notes>
+            <![CDATA[ 识别错误：mybatis-helper-core 被认为是 mybatis ]]>
+        </notes>
+        <packageUrl regex="true">^pkg:maven/cn\.bjca\.footstone\.sword/mybatis\-helper\-core@.*$</packageUrl>
+        <cpe>cpe:/a:mybatis:mybatis</cpe>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[ 识别错误：mybatis-plus-core 被认为是 mybatis ]]></notes>
+        <packageUrl regex="true">^pkg:maven/com\.baomidou/mybatis\-plus\-core@.*$</packageUrl>
+        <cpe>cpe:/a:mybatis:mybatis</cpe>
+     </suppress>
 </suppressions>

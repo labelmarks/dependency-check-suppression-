@@ -1,3 +1,5 @@
+因为权限问题，项目被 http://192.168.131.1/opensource/dependency-check-suppression 代替
+
 # dependency-check 是什么
 dependency-check 是一款根据项目依赖来检查漏洞的白盒审计工具。
 
@@ -21,6 +23,7 @@ eg.
 
 # suppression list
 1. jedis 被误认为是 redis 
+<<<<<<< HEAD
 1. 公司包(格式：cn.*.bjca.*:*.*)被认为是 spring、springboot
 1. cn.bjca.footstone.sword:json-api 被误认为 SWORD Project 
 1. cn.bjca.footstone.sword:json-api-impl-jackson-jdk8 被误认为 SWORD Project 
@@ -41,3 +44,10 @@ eg.
 
 ## 临时忽略
 1. jdom2 2.0.6 有漏洞但是官方最新版本还没有解决，临时忽略到 2022-06-01Z
+=======
+2. nas-store-spring-boot-starter 被误认为是 spring-boot
+3. nas-store-spring-boot-starter 被误认为是 spring-framework
+4. cn.bjca.footstone.sword:json-api 被误认为 SWORD Project 
+5. CVE-2020-8022 是 SUSE openSUSE 安全漏洞，通过打 SUSE 补丁的方式升级 
+6. 
+>>>>>>> cf1a00efe2fa4dc655e249648879d8498ead7b51
